@@ -1,0 +1,13 @@
+# Bỏ qua các file biên dịch, file nhị phân và file hệ thống khổng lồ
+*.o
+*.ko
+*.mod.c
+*.mod
+*.symvers
+*.order
+*.cpio.gz
+*.dtb
+zImage
+
+# Bỏ qua các thư mục chứa output biên dịch lớn
+output/
